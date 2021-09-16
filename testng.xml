@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestngDiscussio">
+   <test thread-count="5" name="Annotation Test Module">  <!--  before test -->
+    <classes>
+      <class name="testngdiscussion.TestCase"/>
+      <class name="testngdiscussion.TestClass2"/>
+    </classes>
+  </test>  <!--   after test -->
+  <test thread-count="5" name="Annotation Test Module2">  <!--  before test -->
+    <classes>
+      <class name="testngdiscussion.TestCasemodule2"/>
+      <class name="testngdiscussion.TestClassmodule2"/>
+    </classes>
+  </test>  <!--   after test -->
+</suite> 
